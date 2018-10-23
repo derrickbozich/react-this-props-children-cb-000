@@ -5,7 +5,8 @@ export default Class Invitation extends React.Component{
   render(){
     return(
       <div className="invitation">
-        <h1> You've been invited! <h1/>
+        <h1> Youve been invited! <h1/>
+        <p>{this.}</p>
       </div>
     )
   }
