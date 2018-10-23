@@ -6,7 +6,7 @@ export default Class Invitation extends React.Component{
     return(
       <div className="invitation">
         <h1> Youve been invited! <h1/>
-        <p>{this.}</p>
+        <p>{this.props.children}</p>
       </div>
     )
   }
